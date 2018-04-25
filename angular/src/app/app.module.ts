@@ -12,7 +12,7 @@ import {environment} from '../environments/environment';
 //components
 import { ProductsComponent } from './componets/products/products.component';
 import { ProductsListComponent } from './componets/products/products-list/products-list.component';
-import { Product} from './models/product';
+import { ProductComponent} from './componets/products/product/product.component';
 
 
 //services
@@ -21,8 +21,7 @@ import {ProductService} from './services/product.service';
   declarations: [
     AppComponent,
     ProductsComponent,
-    ProductsListComponent,
-    Product
+    ProductsListComponent
     
   ],
   imports: [
